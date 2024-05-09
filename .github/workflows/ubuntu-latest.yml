@@ -1,0 +1,8 @@
+name: ubuntu-latest
+on: push
+
+jobs:
+  ubuntu-latest:
+    uses: ./.github/workflows/main.yml
+    with:
+      os: "ubuntu-latest"

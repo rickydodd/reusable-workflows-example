@@ -1,0 +1,19 @@
+name: Feature Suggestion
+description: Suggest a feature.
+title: "[Feat]: "
+labels: ["feature suggestion", "triage"]
+assignees:
+  - rickydodd
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to suggest a feature. Please be descriptive on what feature you would like to see included in this repository!
+  - type: textarea
+    id: feature-suggestion
+    attributes:
+      label: What is the feature?
+      description: Also, tell us why this feature would help make this repository awesome.
+      placeholder: "I would love to see [blank] feature in this repository. It would make this repository awesome!"
+    validations:
+      required: true
